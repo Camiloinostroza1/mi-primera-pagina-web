@@ -1,0 +1,100 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav {
+    background: black;
+}
+nav li {
+    display: inline;
+    position: sticky;
+    top: 0;
+}
+.icono svg{
+    fill: white;
+    width: 2rem;
+}
+
+header{background-image:url(../img/bg-hero.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+color:white;
+text-shadow: 0px 3px 6px black;
+text-align: right;
+}
+
+header h1{ 
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+header h2{font-size: 40px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+/*! aqui deberia ir la sección de donde nos juntamos */
+
+#proxima-charla{
+    background-color: #a4452c;
+    padding: 100px;
+    color: white;
+}
+#proxima-charla .wrapper{
+    width: 800px;
+    margin: auto;
+}
+
+.wrapper img {
+width: 30%;
+}
+
+.wrapper .texto{
+    width: 60%;
+    margin-left: 4%;
+}
+.wrapper img, .texto{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.wrapper h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.wrapper h5{
+    font-size: 25px;
+    font-weight: 100;
+}
+.wrapper h6{
+    font-size: 17.5px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.wrapper p{
+    font-size: 20px;
+    font-weight: 100;
+}
+footer{
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 70px 0 30px 0;
+}
+
+footer i{
+    font-size: 50px;
+    
+}
+
+footer p{
+    margin-top: 20px;
+}
